@@ -13,13 +13,13 @@ Both programs take **minterms** and **don't-care terms** as input and return the
 
 ---
 
-## 🔧 Files
+## Files
 
-- `greedy_kmap.cpp`:  
+- `final.cpp`:  
   Implements a greedy grouping approach for up to **4-variable** K-Maps.  
   It simulates manual K-Map simplification by detecting and grouping adjacent 1s or Xs (don't cares) using spatial folding logic.
 
-- `quine_mccluskey.cpp`:  
+- `quine_final.cpp`:  
   Implements the **Quine-McCluskey algorithm**, suitable for up to **10 variables**.  
   It performs tabulation-based minimization with binary string manipulation and essential prime implicant selection.
 
